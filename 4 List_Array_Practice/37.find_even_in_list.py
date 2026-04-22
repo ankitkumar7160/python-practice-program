@@ -15,4 +15,3 @@ else:
         if x % 2 == 0:
             even.append(x)
 print(f"Even Number: {even}")
-            
