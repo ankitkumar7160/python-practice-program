@@ -17,8 +17,8 @@ n = int(input("Enter the Length of array: "))
 array = []
 
 for i in range(n):
-    i = int(input("Enter value: "))
+    i = int(input(f"Enter value {i+1}: "))
     array.append(i)
 
 print(f"Your original array {array}")
-print(f"Second largest number {find_second_largest(array)}")
+print(f"Second largest number: {find_second_largest(array)}")
