@@ -10,4 +10,4 @@ def largest_character(sentence):
 
 sentence = input("Enter the sentence: ")
 result = largest_character(sentence)
-print(f"The Largest word id ({result})")
+print(f"The Largest word is ({result})")
