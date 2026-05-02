@@ -1,3 +1,4 @@
+# Password Strenght Check
 def check_password(password):
     score = 0
     
