@@ -1,3 +1,4 @@
+# # Palindrome using integer
 # def palindrome(number):
 #     temp = number
 #     reversed_num = 0
@@ -17,7 +18,8 @@
 #     print("Palindrome")
 # else:
 #     print("Not Palindrome")
-    
+
+# Palindrome using String    
 def palindrome(text):
     reversed_text = text[::-1]
     
