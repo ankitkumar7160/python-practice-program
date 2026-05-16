@@ -1,3 +1,4 @@
+# Calculate GCD
 def calculate_GCD(a, b):
     while b != 0:
         remainder = a % b  
