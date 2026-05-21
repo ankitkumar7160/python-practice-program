@@ -1,4 +1,6 @@
-# Using nested loops
+# Three method to sum Problem
+
+# # Using nested loops
 
 # n = int(input("Enter lenght of array: "))
 # my_array = []
