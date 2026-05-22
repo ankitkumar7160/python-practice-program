@@ -1,28 +1,28 @@
 # Three method to sum Problem
 
-# # Using nested loops
+# Using nested loops
 
-# n = int(input("Enter lenght of array: "))
-# my_array = []
-# for i in range(n):
-#     i = int(input("Enter values: "))
-#     my_array.append(i)
+n = int(input("Enter lenght of array: "))
+my_array = []
+for i in range(n):
+    i = int(input("Enter values: "))
+    my_array.append(i)
  
-# print(my_array)
+print(my_array)
 
-# number = my_array
+number = my_array
 
-# def sum_two_number(number):
+def sum_two_number(number):
     
-#     target = 0
+    target = 0
     
-#     for i in range(number):
-#         for j in range(i+1, number):
-#             if j+i == target:
-#                 target = i+j
-#     return target
+    for i in range(number):
+        for j in range(i+1, number):
+            if j+i == target:
+                target = i+j
+    return target
  
-# print(sum_two_number(number))   
+print(sum_two_number(number))   
      
   
 
@@ -56,32 +56,32 @@
 
 
 
-# Using two pointer
-def sum_two_number(my_array, target):
+# # Using two pointer
+# def sum_two_number(my_array, target):
     
-    left = 0
-    right = len(my_array)-1
+#     left = 0
+#     right = len(my_array)-1
     
-    while left < right:
-        current_sum = my_array[left] + my_array[right]
+#     while left < right:
+#         current_sum = my_array[left] + my_array[right]
         
-        if current_sum == target:
-            return (f"Pair found {my_array[left]} and {my_array[right]}")
+#         if current_sum == target:
+#             return (f"Pair found {my_array[left]} and {my_array[right]}")
         
-        elif current_sum < target:
-            left +=1
+#         elif current_sum < target:
+#             left +=1
             
-        else:
-            right -=1
+#         else:
+#             right -=1
             
-    return "Pair not Found"
+#     return "Pair not Found"
 
-my_array = input("Enter Values of array: ")
+# my_array = input("Enter Values of array: ")
 
-new_array = [int(x) for x in my_array.split()]
+# new_array = [int(x) for x in my_array.split()]
 
-target = int(input("Enter Target: "))
+# target = int(input("Enter Target: "))
 
-result = sum_two_number(new_array,target)
+# result = sum_two_number(new_array,target)
 
-print(result)
+# print(result)
