@@ -1,3 +1,4 @@
+# Remove Duplicate Element
 def remove_duplicate_element(my_array):
     
     uniqe_set = {}
