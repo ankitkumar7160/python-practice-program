@@ -1,4 +1,4 @@
-# File me total characters count karne ka function
+# Count Character in file
 
 def count_character():
 
