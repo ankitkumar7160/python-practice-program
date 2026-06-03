@@ -1,3 +1,5 @@
+# Append Text To File
+
 def append_text(text):
     
     with open("Note.txt", "a") as file:
