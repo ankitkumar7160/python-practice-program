@@ -1,3 +1,5 @@
+# Create simple log system
+
 import datetime
 
 def write_log(level, message):
