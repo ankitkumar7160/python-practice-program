@@ -64,8 +64,8 @@ class Bank_Acount:
 
     
     
-user1 = Bank_Acount(101, "Ankit", 2304325, "Saving", 1200)
-user2 = Bank_Acount(102, "Akash", 2304324, "Current", 5000)
+user1 = Bank_Acount(101, "Ankit", 2304325, "Saving", 5000)
+user2 = Bank_Acount(102, "Akash", 2304324, "Current", 1200)
 user3 = Bank_Acount(103, "Rahul", 2304326, "Saving", 1000)
 user4 = Bank_Acount(104, "Sohan", 2304327, "Current", 500)
 
