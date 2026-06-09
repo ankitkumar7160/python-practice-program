@@ -1,4 +1,4 @@
-# Calculate area of rectagnle
+# Calculate area of rectangle
 class Rectangle():
     
     def __init__(self,length,breath):
