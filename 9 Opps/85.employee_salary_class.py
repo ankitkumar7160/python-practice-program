@@ -1,3 +1,5 @@
+# Employee Salary Class
+
 class Employee():
     
     def __init__(self,id,name,department,salary,leave):
