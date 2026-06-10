@@ -49,3 +49,19 @@ class Employee():
     Attendance : {self.attendance}
     Salary : {self.__salary}
     '''
+    
+emp1 = Employee(121,"Ankit","AIML",8000,5)
+
+# print(emp1.employee_details())
+# print(emp1.emp_leave())
+# print(emp1.bonus())
+# print(emp1.work_details())
+
+print(f"""
+      
+      {emp1.employee_details()}
+      {emp1.emp_leave()}
+      {emp1.bonus()}
+      {emp1.work_details()}
+      
+      """)
