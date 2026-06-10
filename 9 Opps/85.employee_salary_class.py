@@ -39,3 +39,13 @@ class Employee():
     Employee Salary after Leave : {self.__salary:.2f}
     """
     
+    
+    def employee_details(self):
+        return f'''
+    === EMPLOYEE SETAILS ===
+    ID : {self.id} 
+    Name : {self.name}
+    Department : {self.department}
+    Attendance : {self.attendance}
+    Salary : {self.__salary}
+    '''
