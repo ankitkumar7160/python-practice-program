@@ -81,13 +81,13 @@ class Developer(Employee):
 emp1 = Employee(101,"Ankit",'AIML',25000,25,14)
 emp2 = Developer(102,"Ankit",48000,0,20,"Python,C,C++,HTML,ChatCPT")
 
-# print(f'''
-#       {emp1.emp_details()}
-#       {emp1.mark_attendance()}
-#       {emp1.emp_leave()}
-#       {emp1.promotion()}
-#       {emp1.emp_details()}
-#       ''')
+print(f'''
+      {emp1.emp_details()}
+      {emp1.mark_attendance()}
+      {emp1.emp_leave()}
+      {emp1.promotion()}
+      {emp1.emp_details()}
+      ''')
 
 
 
