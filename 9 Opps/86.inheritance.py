@@ -91,12 +91,12 @@ print(f'''
 
 
 
-print(f'''
-      {emp2.emp_details()}
-      {emp2.mark_attendance()}
-      {emp2.emp_leave()}
-      {emp2.promotion()}
-      {emp2.emp_details()}
-      ''')
+# print(f'''
+#       {emp2.emp_details()}
+#       {emp2.mark_attendance()}
+#       {emp2.emp_leave()}
+#       {emp2.promotion()}
+#       {emp2.emp_details()}
+#       ''')
 
 # print(emp2.emp_details())
