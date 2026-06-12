@@ -63,7 +63,6 @@ class Employee():
     """
     
     
-    
 class Developer(Employee):
     
     def __init__(self,id,name,salary,leave,attendance,tech_stack):
