@@ -134,17 +134,17 @@ while True:
             break
 
 
-print("\n===CAR 2 DETAILS===")
-# car2.start_engine()
-while True:
-    user_input = input("\nEnter [" "] to accelerate or Enter [q] to stop : ").lower()
+# print("\n===CAR 2 DETAILS===")
+# # car2.start_engine()
+# while True:
+#     user_input = input("\nEnter [" "] to accelerate or Enter [q] to stop : ").lower()
     
-    if user_input == "q":
-        print("Fenished Trip.")
-        break
-    else:
-        status = car2.accelerate_car(54)
-        print(car2.car_details())
-        if status == "Battery Low! Please Charge." or car2.battery <=5 :
-            print("Battery Low.")
-            break
+#     if user_input == "q":
+#         print("Fenished Trip.")
+#         break
+#     else:
+#         status = car2.accelerate_car(54)
+#         print(car2.car_details())
+#         if status == "Battery Low! Please Charge." or car2.battery <=5 :
+#             print("Battery Low.")
+#             break
