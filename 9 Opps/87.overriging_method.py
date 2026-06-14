@@ -8,7 +8,7 @@ class Animal():
         self.food = "Unknow"
         
     def eat(self):
-        user_input = input(f"Enter habitat for {self.animal_name} (Forest,Water,Home): ":).lower()
+        user_input = input(f"Enter habitat for {self.animal_name} (Forest,Water,Home)as(F,W,H): ").lower()
         if user_input == ("forest","F","f"):
             self.food = "Grass", "Meat"
         elif user_input == ("W","w","water"):
@@ -50,4 +50,9 @@ class dog(Animal):
         all = super().animal_details()
         return all
 
+animal1 = Animal("Sheru","Germen Shepherd",5,"M")
+animal2 = dog("Tommy","PetBull",3,"M")
+
+print(animal1.animal_details())
+print(animal2.animal_details())
             
