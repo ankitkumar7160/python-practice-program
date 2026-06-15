@@ -24,4 +24,21 @@ class constructor_example:
             else:
                 print("oops try again!")
     
-    
+    def result(self):
+        if isinstance(self.marks,list):
+            average = sum(self.marks)/len(self.marks) if self.marks else 0
+            
+        else:
+            average = self.marks
+        
+        if 90 <= average <= 100:
+            return "Excellent"
+        elif 70 <= average < 90:
+            return "Very Good"
+        elif 50 <= average < 70:
+            return "Average"
+        elif 30 <= average < 50:
+            return "Good"
+        else:
+            return "FAIL! Try Again."
+        
