@@ -55,4 +55,21 @@ class constructor_example:
         return f"{average:.2f}"
     
     def student_details(self):
-        return f""
+        return f"""
+    Student Name : {self.name}
+    Student Roll_no : {self.roll_no}
+    Student Subject : {self.subject}
+    Student Class : {self.s_class}
+    Student Marks : {self.marks}
+    Student Average Marks : {self.marks}
+    Total Marks : {self.total()}
+    Student Average Marks : {self.average()}
+    Student Result : {self.result()}
+    """
+    
+student1 = constructor_example("Akash",2304324,"AIML")
+# Result
+student1.subjects()
+student1.s_marks()
+student1.result()
+print(student1.student_details())
