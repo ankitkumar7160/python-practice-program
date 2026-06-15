@@ -42,3 +42,17 @@ class constructor_example:
         else:
             return "FAIL! Try Again."
         
+    def subjects(self):
+        sub = input("Enter any Subjects : ")
+        new_sub = [str(x) for x in sub.split()]
+        self.subject = new_sub
+        return
+    
+    def average(self):
+        if isinstance(self.marks,list):
+            average = sum(self.marks) / len(self.marks) if self.marks else 0
+            self.average = average
+        return f"{average:.2f}"
+    
+    def student_details(self):
+        return f""
