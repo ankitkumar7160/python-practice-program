@@ -67,6 +67,7 @@ class constructor_example:
     Student Result : {self.result()}
     """
     
+    
 student1 = constructor_example("Akash",2304324,"AIML")
 # Result
 student1.subjects()
