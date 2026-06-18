@@ -41,6 +41,7 @@ class constructor_example:
             return "Good"
         else:
             return "FAIL! Try Again."
+
         
     def subjects(self):
         sub = input("Enter any Subjects : ")
