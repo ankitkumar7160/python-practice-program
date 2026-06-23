@@ -50,6 +50,7 @@ class dog(Animal):
         all = super().animal_details()
         return all
 
+
 animal1 = Animal("Sheru","Germen Shepherd",5,"M")
 animal2 = dog("Tommy","PetBull",3,"M")
 
