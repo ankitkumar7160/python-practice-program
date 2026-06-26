@@ -19,6 +19,7 @@
 # else:
 #     print("Not Palindrome")
 
+
 # Palindrome using String  
   
 def palindrome(text):
