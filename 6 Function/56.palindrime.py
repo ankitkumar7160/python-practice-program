@@ -19,7 +19,8 @@
 # else:
 #     print("Not Palindrome")
 
-# Palindrome using String    
+# Palindrome using String  
+  
 def palindrome(text):
     reversed_text = text[::-1]
     
