@@ -3,6 +3,7 @@
 #     temp = number
 #     reversed_num = 0
     
+
 #     while temp > 0:
 #         digit = temp % 10
         
