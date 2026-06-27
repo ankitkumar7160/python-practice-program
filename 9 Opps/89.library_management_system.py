@@ -51,5 +51,13 @@ class Library:
             
             if book.status == "Available":
                 book.status = "Issued"
-                member = self.members[m_id]
+                member.issued_book.append(book)
+                return f"Success: {book.title} issued to {member.name}"
+            
+            else:
+                return "Error Book is already issued."
+        else:
+            return "Error: Invalid User ID or Book ID."
+    
+    
                 
