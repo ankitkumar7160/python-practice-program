@@ -6,7 +6,6 @@ class Book():
         self.author = author
         self.status = "Available"
 
-        
     def __str__(self):
         return f"""
     Book ID : {self.book_ID}
