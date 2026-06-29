@@ -1,7 +1,6 @@
 # Most frequent word
 def most_frequent():
 
-    
     with open("Note.txt", "r") as file:
         content = file.read()
         
