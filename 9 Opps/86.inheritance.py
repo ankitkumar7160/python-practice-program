@@ -89,7 +89,6 @@ emp2 = Developer(102,"Ankit",48000,0,20,"Python,C,C++,HTML,ChatCPT")
 #       ''')
 
 
-
 print(f'''
       {emp2.emp_details()}
       {emp2.mark_attendance()}
