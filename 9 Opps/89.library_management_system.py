@@ -5,7 +5,7 @@ class Book():
         self.title = title
         self.author = author
         self.status = "Available"
-        
+
     def __str__(self):
         return f"""
     Book ID : {self.book_ID}
@@ -32,7 +32,7 @@ class Library:
     def __init__(self):
         self.books = {}
         self.members = {}
-        
+
     def add_books(self,book_id,title,author):
         new_book = Book(book_id,title,author)
         self.books[book_id] = new_book
