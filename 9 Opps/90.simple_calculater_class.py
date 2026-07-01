@@ -54,4 +54,23 @@ class calculater():
             choise = int(input("\nChoose any One [1/2/3/4/5/6/7] : "))
             if choise == 1:
                 print(f"Addition {self.x} + {self.y} : {self.addition()}")
-            
+            elif choise == 2:
+                print(f"Subtraction {self.x} - {self.y} : {self.subtraction()}")
+            elif choise == 3:
+                print(f"Multiplication {self.x} X {self.y} : {self.multiplication()}")
+            elif choise == 4:
+                print(f"Division {self.x} / {self.y} : {self.division()}")
+            elif choise == 5:
+                num = int(input("Enter number for square : "))
+                print(f"Square of {num} : {self.square(num)}")
+            elif choise == 6:
+                self.x , self.y = 0, 0
+                print("Result Clear.")
+            elif choise == 7:
+                break
+            else:
+                print("Invalid Choise")
+
+num1 = calculater()
+print(num1.get_input())
+print(num1.result())
