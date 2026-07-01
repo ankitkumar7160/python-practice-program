@@ -17,4 +17,41 @@ class calculater():
         sum = self.x + self.y
         return sum
     
+    def subtraction(self):
+        sub = self.x - self.y
+        return sub
     
+    def multiplication(self):
+        mul = self.x * self.y
+        return mul
+    
+    def division(self):
+        while True:
+            if self.y == 0:
+                print("Error! Zero Division Not Possible. Try Again")
+                self.y_input()
+                break
+            else:
+                div = self.x / self.y
+                return div
+    
+    def square(self,val):
+        return val * val
+    
+    def result(self):
+        print("\n======== Simple Calculater ========")
+        print("\nChoose the Operater:")
+        print(f'''
+              1. Addition
+              2. Subtraction
+              3. Multiplication
+              4. Division
+              5. Check Square
+              6. Clear
+              7. Exit''')
+        
+        while True:
+            choise = int(input("\nChoose any One [1/2/3/4/5/6/7] : "))
+            if choise == 1:
+                print(f"Addition {self.x} + {self.y} : {self.addition()}")
+            
