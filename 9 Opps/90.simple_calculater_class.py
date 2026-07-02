@@ -21,8 +21,7 @@ class calculater():
         sub = self.x - self.y
         return sub
 
-    
-    def multiplication(self):
+     def multiplication(self):
         mul = self.x * self.y
         return mul
     
