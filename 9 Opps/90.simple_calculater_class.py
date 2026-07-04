@@ -20,7 +20,7 @@ class calculater():
     def subtraction(self):
         sub = self.x - self.y
         return sub
-    
+
     def multiplication(self):
         mul = self.x * self.y
         return mul
