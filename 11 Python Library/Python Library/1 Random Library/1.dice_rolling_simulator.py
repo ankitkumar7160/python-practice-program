@@ -1,5 +1,4 @@
 # Dice Rolling Simulator
-
 import random
 
 dice = random.randint(1,6)
