@@ -1,6 +1,7 @@
 # Copy content to another file
 
 def copy_content():
+
     
     with open("Note.txt", "r") as file:
         content = file.read()
